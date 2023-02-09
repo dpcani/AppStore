@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B746DD729958B860062F681 /* ArticleExcerptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B746DD629958B860062F681 /* ArticleExcerptView.swift */; };
 		F4507D8328C0747A00746417 /* SwiftUIAppStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4507D8228C0747A00746417 /* SwiftUIAppStoreApp.swift */; };
 		F4507D8528C0747A00746417 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4507D8428C0747A00746417 /* ContentView.swift */; };
 		F4507D8728C0747A00746417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4507D8628C0747A00746417 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B746DD629958B860062F681 /* ArticleExcerptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleExcerptView.swift; sourceTree = "<group>"; };
 		F4507D7F28C0747A00746417 /* SwiftUIAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4507D8228C0747A00746417 /* SwiftUIAppStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppStoreApp.swift; sourceTree = "<group>"; };
 		F4507D8428C0747A00746417 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		F4507D9328C074A900746417 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0B746DD629958B860062F681 /* ArticleExcerptView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4507D8528C0747A00746417 /* ContentView.swift in Sources */,
+				0B746DD729958B860062F681 /* ArticleExcerptView.swift in Sources */,
 				F4507D8328C0747A00746417 /* SwiftUIAppStoreApp.swift in Sources */,
 				F4507D9228C074A000746417 /* Article.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAppStore/Preview Content\"";
+				DEVELOPMENT_TEAM = 33TSWCLKZM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -315,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAppStore/Preview Content\"";
+				DEVELOPMENT_TEAM = 33TSWCLKZM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
