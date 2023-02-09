@@ -9,13 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ScrollView {
+            VStack(spacing: 40) {
+                TopBarView()
+                    .padding(.horizontal, 20)
+                
+                ForEach(sampleArticles.indices, id: \.self) { index in
+                    ArticleCardView(category: sampleArticles[index].category,
+                                    headline: sampleArticles[index].headline,
+                                    subHeadline: sampleArticles[index].subHeadline,
+                                    image: sampleArticles[index].image, content:
+                                        sampleArticles[index].content, isShowContent:.constant(false))
+                    .padding(.horizontal, 20)
+                    .frame(height: min(sampleArticles[index].image.size.height/3, 500))
+                }
+            }
         }
-        .padding()
     }
 }
 

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0B746DD729958B860062F681 /* ArticleExcerptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B746DD629958B860062F681 /* ArticleExcerptView.swift */; };
 		0B746DD9299590210062F681 /* ArticleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B746DD8299590210062F681 /* ArticleCardView.swift */; };
+		0B746DDC299595B40062F681 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B746DDB299595B40062F681 /* TopBarView.swift */; };
+		0B746DDF299596C70062F681 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B746DDE299596C70062F681 /* Helpers.swift */; };
+		0B746DE1299596EC0062F681 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B746DE0299596EC0062F681 /* AvatarView.swift */; };
 		F4507D8328C0747A00746417 /* SwiftUIAppStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4507D8228C0747A00746417 /* SwiftUIAppStoreApp.swift */; };
 		F4507D8528C0747A00746417 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4507D8428C0747A00746417 /* ContentView.swift */; };
 		F4507D8728C0747A00746417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4507D8628C0747A00746417 /* Assets.xcassets */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		0B746DD629958B860062F681 /* ArticleExcerptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleExcerptView.swift; sourceTree = "<group>"; };
 		0B746DD8299590210062F681 /* ArticleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCardView.swift; sourceTree = "<group>"; };
+		0B746DDB299595B40062F681 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		0B746DDE299596C70062F681 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		0B746DE0299596EC0062F681 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		F4507D7F28C0747A00746417 /* SwiftUIAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4507D8228C0747A00746417 /* SwiftUIAppStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppStoreApp.swift; sourceTree = "<group>"; };
 		F4507D8428C0747A00746417 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +44,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B746DDA299595A50062F681 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0B746DDB299595B40062F681 /* TopBarView.swift */,
+				0B746DE0299596EC0062F681 /* AvatarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0B746DDD299596B00062F681 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0B746DDE299596C70062F681 /* Helpers.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		F4507D7628C0747900746417 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +80,7 @@
 		F4507D8128C0747A00746417 /* SwiftUIAppStore */ = {
 			isa = PBXGroup;
 			children = (
+				0B746DDD299596B00062F681 /* Tools */,
 				F4507D9328C074A900746417 /* View */,
 				F4507D9028C0749500746417 /* Model */,
 				F4507D8228C0747A00746417 /* SwiftUIAppStoreApp.swift */,
@@ -86,6 +110,7 @@
 		F4507D9328C074A900746417 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0B746DDA299595A50062F681 /* Components */,
 				0B746DD629958B860062F681 /* ArticleExcerptView.swift */,
 				0B746DD8299590210062F681 /* ArticleCardView.swift */,
 			);
@@ -163,9 +188,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4507D8528C0747A00746417 /* ContentView.swift in Sources */,
+				0B746DDF299596C70062F681 /* Helpers.swift in Sources */,
 				0B746DD729958B860062F681 /* ArticleExcerptView.swift in Sources */,
 				0B746DD9299590210062F681 /* ArticleCardView.swift in Sources */,
 				F4507D8328C0747A00746417 /* SwiftUIAppStoreApp.swift in Sources */,
+				0B746DE1299596EC0062F681 /* AvatarView.swift in Sources */,
+				0B746DDC299595B40062F681 /* TopBarView.swift in Sources */,
 				F4507D9228C074A000746417 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
