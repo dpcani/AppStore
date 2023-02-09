@@ -25,7 +25,7 @@ struct ArticleCardView: View {
                         Image(uiImage: image)
                             .resizable()
                             .scaledToFill()
-                            .frame(width: geometry.size.width, height: min(image.size.height/3, 500))
+                            .frame(width: geometry.size.width, height: isShowContent ? geometry.size.height * 0.7 : min(image.size.height/3, 500))
                             .border(Color(.sRGB, red:150/255, green: 150/255, blue: 150/255, opacity: 0.1), width: isShowContent ? 0 : 1)
                             .cornerRadius(15)
                             .overlay {
